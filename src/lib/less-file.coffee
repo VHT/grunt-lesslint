@@ -87,7 +87,7 @@ class LessImportFile extends LessFile
 # Extended LessFile with some logic for caching
 class LessCachedFile extends LessFile
   constructor: (@filePath, @options = {}, @grunt) ->
-    super
+    super()
 
     @cache = new LintCache(@options.cache)
 

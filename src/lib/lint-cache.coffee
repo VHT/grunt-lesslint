@@ -14,7 +14,7 @@ class LintCache extends CacheSwap
     # Ensure the opts are an object; can be passed as true
     opts = {} unless _.isObject(opts)
 
-    super
+    super()
 
     # Key the directory off the version so upgrading causes fresh linting
     @options.cacheDirName = "lesslint-#{packageInfo.version}"

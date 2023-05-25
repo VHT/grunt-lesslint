@@ -1,3 +1,7 @@
+_(This is a fork)_
+
+The original repo seemed unmaintained (had not had a commit since 2018) so this fork upgrades some dependencies needed for modern NodeJS support.
+
 # LESS Lint Grunt plugin
 [![Build Status](https://travis-ci.org/jgable/grunt-lesslint.svg)](https://travis-ci.org/jgable/grunt-lesslint)
 [![Dependency Status](https://david-dm.org/jgable/grunt-lesslint.svg)](https://david-dm.org/jgable/grunt-lesslint)
