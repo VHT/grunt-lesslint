@@ -1,6 +1,7 @@
 _ = require 'lodash'
 
 getPropertyName = (line='') ->
+  return null if line is null
   line = line.trim()
   return null if line[0..1] is '/*'
 
